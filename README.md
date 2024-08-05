@@ -24,4 +24,4 @@ This project is a note-taking application where users can create notes, search f
 
 ### GIF
 
-<img src=""/>
+<img src="./public/notesapp.gif"/>

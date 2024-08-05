@@ -5,7 +5,6 @@ import { useNavigate } from "react-router-dom";
 import ReactSelect from "react-select/creatable";
 import { Tag } from "../../types";
 import { v4 } from "uuid";
-import styles from "./form.module.css";
 
 const CustomForm = ({
   availableTags,

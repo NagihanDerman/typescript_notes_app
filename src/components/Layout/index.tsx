@@ -9,7 +9,7 @@ const Layout = ({ notes }: Props) => {
   // url'den parametreyi al
   const { id } = useParams();
 
-  // bütün notların arasında id'si urldeki parametreyle eşleşen note'un verilerini ara
+  // id'si urldeki parametreyle eşleşen note'un verilerini ara
   const found = notes.find((i) => i.id === id);
 
   // note bulunamazsa anasayfaya yönlendir

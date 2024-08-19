@@ -8,7 +8,6 @@ type Props = {
 };
 
 const Detail = ({ deleteNote }: Props) => {
-  // outletten gönderilen proplara erişmeye yarar
   const note = useOutletContext<Note>();
 
   return (

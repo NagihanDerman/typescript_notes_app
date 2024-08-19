@@ -14,13 +14,6 @@ const Main = ({ notes, availableTags }: Props) => {
   const [title, setTitle] = useState<string>("");
   const [selectedTags, setSelectedTags] = useState<Tag[]>([]);
 
-  /*
-  1) Not başlığı 1.inputla aratılan metni içermelidir. Note'un başlığının küçük harfe çevrilmiş hali aratılan metnin küçük harfe çevrilmiş halini içeriyorsa koşul sağlanır.
-
-  &&
-
-  2) 2.input ile seçilen etiketler note'un içersindeki etiketler ile birebir eşleşmeli. Seçilen etiket dizisindeki her bir etiket için note'a ait etiketler arasında eşleşme kontolü yapılmalı
-  */
   const filtredNotes = notes.filter(
     (note) =>
       note.title.toLowerCase().includes(title.toLowerCase()) &&

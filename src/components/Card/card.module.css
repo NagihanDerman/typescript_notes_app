@@ -1,13 +1,3 @@
-/*
- * Module CSS
- * Bu kullanımda her css dosayası bir modül yapısındadır ve tek bir bileşen özeldir.
-
- * class isimlendiriken acaba bu class ismi daha önce farklı bir yerde kullanıldımı diye dert etmeye gerek kalmıyor. çünkü module css'de tanımlanana class ismini bir yerde import edildiğinde benzersiz bir classname oluşturur.
-
- not: class ismi tanımlarken bu class nesnenin içerisnde bir property olucağı için genelde özel karaketer tercih etmeyiz
-
-*/
-
 .background {
   background: rgb(248, 39, 39);
   box-shadow: 0 0 20px red;
